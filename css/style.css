@@ -76,7 +76,7 @@ body {
 }
 
 /* стили контейнера хедера */
-.container,
+/* .container, */
 .container-header {
   display: flex;
 
@@ -88,8 +88,8 @@ body {
 .container {
   width: 1200px;
 
-  flex-wrap: wrap;
-  justify-content: center;
+  /* flex-wrap: wrap;
+  justify-content: center; */
 
   padding-left: 15px;
   padding-right: 15px;
@@ -382,6 +382,7 @@ ul {
 .container-button-portfolio {
   display: flex;
   margin-bottom: 50px;
+  justify-content: center;
 }
 
 .button-potfolio-list {
@@ -445,7 +446,7 @@ ul {
   margin-right: 30px;
   margin-bottom: 30px;
   /* padding: 0; */
-  max-width: 370px;
+  width: 370px;
 }
 
 .portfolio-about-our-works {
